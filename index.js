@@ -727,8 +727,8 @@ const GameModule = (function () {
     }
 
     handleKeyDown(e) {
-      e.preventDefault();
-      // console.log('Pressing \'' + e.key + '\''); // log keyPress
+      // e.preventDefault(); console.log('Pressing \'' + e.key + '\''); // log
+      // keyPress
       switch (e.key) {
         case 'ArrowLeft':
           this.booleans.isLeftArrowPressed = true;
