@@ -1,0 +1,31 @@
+html,
+body {
+  margin: 0;
+  background-color: black;
+}
+
+#canvas-overlay {
+  position: absolute;
+  height: 600px;
+  width: 600px;
+  left: calc(50% - 300px);
+  top: calc(50vh - 300px);
+  cursor: none;
+  border: 5px solid white;
+  line-height: 600px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  opacity: 0;
+  transition: opacity 3s;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+canvas {
+  border: 5px solid white;
+  background-color: black;
+  margin-left: calc(50% - 300px);
+  margin-top: calc(50vh - 300px);
+  cursor: none;
+}
