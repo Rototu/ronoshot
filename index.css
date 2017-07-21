@@ -4,6 +4,25 @@ body {
   background-color: black;
 }
 
+h1 {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: calc(50vh + 300px);
+  border: 5px solid rgba(0, 0, 0, 0);
+  width: 600px;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+}
+
+img {
+  position: absolute;
+  left: calc(50% - 300px);
+  top: calc(50vh - 440px);
+  border: 5px solid red;
+}
+
 #canvas-overlay {
   position: absolute;
   height: 600px;
