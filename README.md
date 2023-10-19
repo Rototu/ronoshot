@@ -4,4 +4,4 @@ Controls: Left/Right arrows to move, Space to shoot
 
 ## Demo
 
-https://github.com/Rototu/ronoshot
+https://rototu.github.io/ronoshot/
